@@ -1,0 +1,13 @@
+.button {
+    background-color : transparent;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .button i {
+    color: #4e769d;
+  }
+  .button i:hover {
+    color: #373839;
+    cursor: pointer;
+  }  

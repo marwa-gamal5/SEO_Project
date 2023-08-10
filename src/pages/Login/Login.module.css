@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  
+}
+
+.iconEye{
+  top: 15px;
+  right: 8px;
+}
+
+.body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20%;
+  background: linear-gradient(135deg, #4e769d, rgb(6, 36, 63));
+}
+.container{
+  max-width: 700px;
+  width: 60%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.title{
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 20px;
+}
+.title::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 33px;
+  border-radius: 5px;
+  margin-top: 23px;
+  background: linear-gradient(135deg, #4e769d, rgb(6, 36, 63));
+}
+
+.content .userdetails{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+.userdetails .inputbox{
+  margin-bottom: 20px;
+  width: calc(100% / 2 - 20px);
+}
+.inputbox {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+ .input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.userdetails .inputbox .input:focus,
+.userdetails .inputbox .input:valid{
+  border-color: #4e769d;
+}
+
+.button{
+   height: 45px;
+   margin: 20px 0
+ }
+.button{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: linear-gradient(135deg, #4e769d, rgb(6, 36, 63));
+ }
+.button:hover{
+  background: linear-gradient(-135deg, #4e769d, rgb(6, 36, 63));
+  }
+
+
+.passlink a,
+form .signuplink a{
+  color: #4158d0;
+  text-decoration: none;
+  margin-left: 3px;
+}
+.passlink a:hover,
+.signuplink a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
